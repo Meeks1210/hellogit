@@ -22,7 +22,7 @@ class FirstClass
 	{
 		age = a;
 	}
-	int getName()
+	string getName()
 	{
 		return name;
 	}
@@ -30,4 +30,4 @@ class FirstClass
 	{
 		name = n;
 	}
-}
+};

@@ -8,7 +8,7 @@ int main()
 {
 	vector<FirstClass>userInfo = { {19, "Mikel"}, {18, "Tiffany"}, {20, "Ajani"}, {7,"Cristiano"} };
 	
-	for (auto i : userIfo)
+	for (auto i : userInfo)
 	{
 		cout << i.getAge() << " " << i.getName() << endl;
 	}
